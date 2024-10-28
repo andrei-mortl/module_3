@@ -10,9 +10,9 @@ print_params(c = [1,2,3])
 # ______________________2________________________
 
 values_list = [True, 'str',78]
-values_dict = {'Петя': 40, 'Саша': '50', 'Коля': 60}
-print_params( * values_list)
-print_params( ** values_dict)
+values_dict = {'a':40, 'b':'50', 'c':60.8}
+print_params(*values_list)
+print_params(**values_dict)
 
 # ______________________3________________________
 
